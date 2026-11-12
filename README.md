@@ -21,20 +21,28 @@ The rest of this README is the setup and maintenance guide, kept here for future
  
 Your `.qmd` files live in this GitHub *repository* (an online project folder), and a small *workflow* file tells GitHub to turn them into a website and publish it on *GitHub Pages* whenever something changes. You can edit straight in your web browser or on your laptop in VS Code.
  
-**Files in this repository**
+**How the book is organised**
+ 
+| Part of the book | Folder | Chapters |
+| --- | --- | --- |
+| Welcome | (top level) | `index.qmd` |
+| Part I – Core game: rules for every level | `core/` | `aim.qmd`, `components.qmd`, `setup.qmd`, `turn.qmd`, `quantum-basics.qmd`, `winning.qmd` (chapters 1–6) |
+| Part II – Levels | `levels/` | `index.qmd` (intro page with a "levels at a glance" table), then `level-1.qmd` to `level-5.qmd` (chapters 7–11) |
+| Appendices | `reference/` | `cards.qmd`, `quick-reference.qmd`, `faq.qmd`, `glossary.qmd` (appendices A–D) |
+ 
+Every level chapter uses the same headings: *What's new*, *Additional components*, *Setup changes*, *New rules*, *New cards*, *Changes to winning* and *Strategy tips*. Each level builds on the one before it, so a level chapter only describes what changes and links back to the core rules instead of repeating them.
+ 
+**Other files**
  
 | File | What it is |
 | --- | --- |
-| `_quarto.yml` | Settings: the book title, author, chapter list and theme |
-| `index.qmd` | The welcome page (first page of the book) |
-| `setup.qmd` | Chapter 1: components and setup |
-| `how-to-play.qmd` | Chapter 2: turn structure |
-| `quantum-moves.qmd` | Chapter 3: superposition, entanglement, measurement |
-| `winning.qmd` | Chapter 4: end of game and scoring |
-| `faq.qmd` | Frequently asked questions |
+| `_quarto.yml` | Settings: the book title, author, theme and the chapter list, grouped into parts |
 | `custom.scss` | Optional colours for your game |
+| `images/` | Pictures used in the book |
 | `README.md` | This guide |
 | `.github/workflows/publish.yml` | The publishing workflow. Don't delete it |
+| `.gitignore` | Stops preview files being uploaded (added in Part 6) |
+
  
 
 ## Part 1: Create the repository
@@ -54,13 +62,12 @@ You'll land on your repo's page, at `https://github.com/rosaria-lena/Qubway`. Bo
 ## Part 2: Upload the template files
  
 1. On your computer, unzip `Qubway-rules-book.zip`. On Windows, right-click it and choose **Extract All**. On a Mac, double-click it. You get a folder called `Qubway-rules-book`.
-2. Open that folder so you can see the files inside it (`_quarto.yml`, `index.qmd` and the rest).
+2. Open that folder so you can see what's inside it: the `core`, `levels`, `reference` and `images` folders, plus `_quarto.yml`, `index.qmd` and the other files.
 3. On your repo page on GitHub, click **Add file** (near the top, next to the green **Code** button), then **Upload files**.
-4. Select **all the files inside the folder except `publish.yml`** and drag them onto the upload area. Drag the files, not the folder itself. Otherwise everything ends up one level too deep and the book won't build.
-5. Wait until every file name appears in the list under the upload box.
+4. Select **everything inside the folder except `publish.yml`**, both the files and the four subfolders, and drag it all onto the upload area. Dragging folders works in Chrome, Edge and Firefox; in Safari, upload each folder's contents separately. Don't drag the `Qubway-rules-book` folder itself. Otherwise everything ends up one level too deep and the book won't build.
+5. Wait until every file name appears in the list under the upload box. Files inside subfolders appear with their folder name in front, such as `levels/level-1.qmd`.
 6. Scroll down to **Commit changes**. In the first box, type a short note such as `Add book template`. Leave **Commit directly to the main branch** selected.
 7. Click **Commit changes**.
-> **Check:** `_quarto.yml` should appear directly on the repo's front page, not inside a `Qubway-rules-book` folder. If it's inside a folder, see [Troubleshooting](#troubleshooting).
  
 ## Part 3: Turn on GitHub Pages
  
