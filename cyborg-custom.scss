@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+// Colours from the game board
+$board-blue:   #57a5e8;
+$board-orange: #de8b3c;
+$board-navy:   #0e142c;
+
+// Use the board's dark navy as the page background instead of black
+$body-bg: $board-navy;
+$link-color: $board-blue;
+
+$callout-color-note: $board-blue;
+$callout-color-important: $board-orange;
+
+/*-- scss:rules --*/
+html::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  z-index: 2000;
+  background: linear-gradient(90deg, $board-orange 0 50%, $board-blue 50% 100%);
+}
+
+main h2 { border-bottom: 2px solid $board-orange !important; }
+main .header-section-number { color: $board-orange; }
+
+.sidebar-navigation .sidebar-link.active { color: $board-blue; font-weight: 700; }
+.sidebar nav[role="doc-toc"] ul > li > a.active,
+.sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
+  border-left: 2px solid $board-blue !important;
+  color: $board-blue !important;
+}
+
+.sidebar-title { font-weight: 700; }

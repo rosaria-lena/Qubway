@@ -1,9 +1,44 @@
 /*-- scss:defaults --*/
-// Change these colours to match your game.
-$primary: #5b3cc4;      // links and highlights
-$navbar-bg: #2c1f66;    // top bar (if shown)
+// Font: Roboto (the font used by the Cyborg theme)
+$font-family-sans-serif: Roboto, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+// Colours from the game board
+$board-blue:   #57a5e8;
+$board-orange: #de8b3c;
+
+// The board colours are too pale for small text on white,
+// so links use a deeper version of the board blue.
+$link-color: #1f6fb8;
+
+// Callout boxes: "note" boxes in board blue, "important" boxes in board orange
+$callout-color-note: $board-blue;
+$callout-color-important: $board-orange;
 
 /*-- scss:rules --*/
-.sidebar-title {
-  font-weight: 700;
+// A thin orange-and-blue stripe along the top of every page, like the board squares
+html::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  z-index: 2000;
+  background: linear-gradient(90deg, $board-orange 0 50%, $board-blue 50% 100%);
 }
+
+// Blue line under section headings, blue section numbers
+// (dark mode uses orange, so the two modes complement each other)
+main h2 { border-bottom: 2px solid $board-blue !important; }
+main .header-section-number { color: #3a8fd9; }
+
+// Orange marker for the current chapter in the sidebar and the current section
+// in the contents (dark mode uses blue, so the two modes complement each other).
+// Text uses a deeper orange so it stays readable on white.
+.sidebar-navigation .sidebar-link.active { color: #ad5f17; font-weight: 700; }
+.sidebar nav[role="doc-toc"] ul > li > a.active,
+.sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
+  border-left: 2px solid $board-orange !important;
+  color: #ad5f17 !important;
+}
+
+.sidebar-title { font-weight: 700; }
