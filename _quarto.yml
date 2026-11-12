@@ -45,7 +45,7 @@ format:
   html:
     theme:
       light: [flatly, custom.scss]
-      dark: cyborg
+      dark: [cyborg, cyborg-custom.scss]
     toc: true
     number-sections: true
     crossref:
