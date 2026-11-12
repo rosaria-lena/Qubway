@@ -1,4 +1,4 @@
-# Qubway – rules book
+# Qubway – rules book instructions
  
 This repository holds the source files for the **Qubway** rules, written as a [Quarto](https://quarto.org) book. The book is published automatically with GitHub Pages every time a change reaches the `main` branch.
  
