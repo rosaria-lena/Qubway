@@ -44,7 +44,7 @@ book:
 format:
   html:
     theme:
-      light: [cerulean, custom.scss]
+      light: [flatly, custom.scss]
       dark: cyborg
     toc: true
     number-sections: true
