@@ -1,0 +1,37 @@
+# Level 3: Entangled futures {#sec-level-3}
+
+::: {.callout-note title="Level 3 at a glance" appearance="simple"}
+**Builds on:** Level 2 · **New components:** Timeline cards, decoherence tokens · **Playing time:** about 50 minutes
+:::
+
+## What's new {#sec-level-3-new}
+
+Timeline cards let you plan moves in advance, and decoherence tokens make superpositions collapse on their own.
+
+## Additional components {#sec-level-3-components}
+
+| Component | Quantity | Notes |
+|-----------|---------:|-------|
+| Timeline cards, decoherence tokens | – | Describe here |
+
+## Setup changes {#sec-level-3-setup}
+
+After the core setup (@sec-setup), add the Level 3 components as described here.
+
+## New rules {#sec-level-3-rules}
+
+Describe the new rules for this level here.
+
+
+
+## New cards {#sec-level-3-cards}
+
+See the Level 3 rows of the card reference (@sec-cards).
+
+## Changes to winning {#sec-level-3-winning}
+
+No changes. The core winning conditions apply (@sec-winning).
+
+## Strategy tips {#sec-level-3-tips}
+
+- Add tips for this level here.

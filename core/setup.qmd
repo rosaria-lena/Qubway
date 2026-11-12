@@ -1,0 +1,7 @@
+# Setup {#sec-setup}
+
+1. Place the board in the middle of the table.
+2. Each player chooses a colour and takes the 8 matching pieces.
+3. Players place their pieces on their home row.
+4. Add any extra setup for the level you are playing (see that level's chapter).
+5. The youngest player goes first.

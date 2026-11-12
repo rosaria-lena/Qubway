@@ -1,0 +1,24 @@
+# Welcome {.unnumbered}
+
+Welcome to the rules of **Quantum Board Game**, a strategy game for 2–4 players
+where your pieces can be in two places at once.
+
+::: {.callout-note title="At a glance"}
+- **Players:** 2–4
+- **Playing time:** 30–90 minutes, depending on the level
+- **Ages:** 12+
+- **Levels:** 5, from first game to expert
+:::
+
+## How this book is organised
+
+- **Part I – Core game** explains the aim, the components and the basic rules.
+  These apply at every level.
+- **Part II – Levels** has one chapter per level. Each chapter only describes
+  what that level adds or changes.
+- **Appendices** hold the card reference, a one-page quick reference, the FAQ
+  and a glossary.
+
+**First time playing?** Read Part I, then play **Level 1** (@sec-level-1).
+
+<!-- Replace everything above with your own introduction. -->

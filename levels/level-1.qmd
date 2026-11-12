@@ -1,0 +1,35 @@
+# Level 1: First steps {#sec-level-1}
+
+::: {.callout-note title="Level 1 at a glance" appearance="simple"}
+**Builds on:** Core game · **New components:** None · **Playing time:** about 30 minutes
+:::
+
+## What's new {#sec-level-1-new}
+
+Level 1 is the core game with no additions. It's the best way to learn superposition, entanglement and measurement.
+
+## Additional components {#sec-level-1-components}
+
+None. Level 1 uses only the core components (@sec-components).
+
+## Setup changes {#sec-level-1-setup}
+
+None. Follow the core setup (@sec-setup).
+
+## New rules {#sec-level-1-rules}
+
+None. Play with the core rules (@sec-turn and @sec-quantum).
+
+
+
+## New cards {#sec-level-1-cards}
+
+None.
+
+## Changes to winning {#sec-level-1-winning}
+
+No changes. The core winning conditions apply (@sec-winning).
+
+## Strategy tips {#sec-level-1-tips}
+
+- Add tips for this level here.

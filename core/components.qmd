@@ -1,0 +1,17 @@
+# Components {#sec-components}
+
+These components are used at every level. Components added by higher levels
+are listed in each level's chapter and in @sec-cards.
+
+| Component             | Quantity | Notes                              |
+|-----------------------|---------:|------------------------------------|
+| Game board            | 1        | 8 × 8 grid                         |
+| Pieces                | 32       | 8 per player, in four colours      |
+| Superposition markers | 16       | Show where a split piece might be  |
+| Entanglement cords    | 8        | Link two entangled pieces          |
+| Measurement dice      | 2        |                                    |
+
+<!--
+To add a picture: put it in the "images" folder, then write:
+![All the components](../images/components.jpg)
+-->

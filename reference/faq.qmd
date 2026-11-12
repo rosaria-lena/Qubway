@@ -1,0 +1,16 @@
+# Frequently asked questions {#sec-faq}
+
+## Core game
+
+**Can a piece in superposition be split again?**
+: No. A piece must be measured before it can be split again.
+
+**Can I measure my own pieces?**
+: Yes. Sometimes that's the best move!
+
+## Levels 2–5
+
+**Can I play a Quantum card on another player's turn?**
+: No, unless the card says so.
+
+<!-- Add a new question by copying the three lines above. -->

@@ -1,0 +1,23 @@
+# Playing a turn {#sec-turn}
+
+Turns go clockwise around the table. On your turn you have **3 actions**,
+which you can spend in any order.
+
+## Actions {#sec-actions}
+
+| Action               | Cost      | Rules                  |
+|----------------------|-----------|------------------------|
+| Move a piece         | 1 action  | @sec-moving            |
+| Split a piece        | 1 action  | @sec-superposition     |
+| Entangle two pieces  | 2 actions | @sec-entanglement      |
+| Measure a piece      | 1 action  | @sec-measurement       |
+
+## Moving {#sec-moving}
+
+A piece moves one square in any direction, including diagonally.
+
+::: {.callout-tip}
+## Tip
+Save an action for a measurement at the end of your turn. It can stop an
+opponent's plan before it starts.
+:::

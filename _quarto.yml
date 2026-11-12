@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Quantum Board Game"
+  subtitle: "Official rules"
+  author: "Your Name"
+  date: today
+  date-format: "D MMMM YYYY"
+  search: true
+  # After publishing, replace YOUR-USERNAME to add a "view source" link:
+  # repo-url: https://github.com/YOUR-USERNAME/quantum-rules
+  chapters:
+    - index.qmd
+    - part: "Core game"
+      chapters:
+        - core/aim.qmd
+        - core/components.qmd
+        - core/setup.qmd
+        - core/turn.qmd
+        - core/quantum-basics.qmd
+        - core/winning.qmd
+    - part: levels/index.qmd
+      chapters:
+        - levels/level-1.qmd
+        - levels/level-2.qmd
+        - levels/level-3.qmd
+        - levels/level-4.qmd
+        - levels/level-5.qmd
+  appendices:
+    - reference/cards.qmd
+    - reference/quick-reference.qmd
+    - reference/faq.qmd
+    - reference/glossary.qmd
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: darkly
+    toc: true
+    number-sections: true
+    crossref:
+      chapters: true

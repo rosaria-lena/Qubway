@@ -1,0 +1,25 @@
+# Levels
+
+The game has five levels. The aim and the core rules (Part I) stay the same,
+and each level **builds on the one before it**, adding new components, cards
+and rules. Level 3, for example, includes everything from Levels 1 and 2.
+
+## Levels at a glance
+
+| Level | Name                 | Adds                                | Difficulty | Time    |
+|:-----:|----------------------|-------------------------------------|------------|---------|
+| 1     | First steps          | Core rules only                     | ★☆☆☆☆      | 30 min  |
+| 2     | Quantum cards        | Quantum cards                       | ★★☆☆☆      | 40 min  |
+| 3     | Entangled futures    | Timeline cards, decoherence tokens  | ★★★☆☆      | 50 min  |
+| 4     | Uncertainty          | Changed measurement rules           | ★★★★☆      | 60 min  |
+| 5     | Many worlds          | Parallel boards, expert scoring     | ★★★★★      | 90 min  |
+
+: The five levels {.striped}
+
+## Which level should I play?
+
+- **New players:** start with Level 1, even if you're experienced with strategy games.
+- **Moving up:** play a level at least once before moving to the next.
+- **Mixed groups:** play the level suited to the least experienced player.
+
+<!-- Replace the names, contents and times above with your own. -->

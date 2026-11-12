@@ -1,0 +1,6 @@
+# Aim of the game {#sec-aim}
+
+Be the first player to bring **3 pieces** to the opposite side of the board.
+
+The aim is the same at every level. Higher levels add new ways to get there,
+and new ways to stop your opponents.

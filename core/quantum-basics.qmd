@@ -1,0 +1,27 @@
+# Quantum basics {#sec-quantum}
+
+## Superposition {#sec-superposition}
+
+When you **split** a piece, remove it from the board and place two
+superposition markers on two different empty squares. The piece is now in
+*both* places until someone measures it.
+
+## Entanglement {#sec-entanglement}
+
+Two pieces can be **entangled** with a cord. When one of them is measured,
+the other one collapses too.
+
+## Measurement {#sec-measurement}
+
+To **measure** a piece in superposition, roll a measurement die:
+
+- **1–3:** the piece collapses onto the first marker.
+- **4–6:** the piece collapses onto the second marker.
+
+Remove the other marker. If the piece was entangled, measure its partner too.
+
+::: {.callout-warning}
+## Watch out
+If a piece collapses onto an occupied square, the piece already there is
+captured.
+:::

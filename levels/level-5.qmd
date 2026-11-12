@@ -1,0 +1,37 @@
+# Level 5: Many worlds {#sec-level-5}
+
+::: {.callout-note title="Level 5 at a glance" appearance="simple"}
+**Builds on:** Level 4 · **New components:** Parallel board, world markers · **Playing time:** about 90 minutes
+:::
+
+## What's new {#sec-level-5-new}
+
+A piece's two possible positions can be on two parallel boards, and the game uses expert scoring.
+
+## Additional components {#sec-level-5-components}
+
+| Component | Quantity | Notes |
+|-----------|---------:|-------|
+| Parallel board, world markers | – | Describe here |
+
+## Setup changes {#sec-level-5-setup}
+
+After the core setup (@sec-setup), add the Level 5 components as described here.
+
+## New rules {#sec-level-5-rules}
+
+Describe the new rules for this level here.
+
+
+
+## New cards {#sec-level-5-cards}
+
+See the Level 5 rows of the card reference (@sec-cards).
+
+## Changes to winning {#sec-level-5-winning}
+
+Use expert scoring: describe it here. Otherwise the core conditions apply (@sec-winning).
+
+## Strategy tips {#sec-level-5-tips}
+
+- Add tips for this level here.

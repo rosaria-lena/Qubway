@@ -1,0 +1,37 @@
+# Level 2: Quantum cards {#sec-level-2}
+
+::: {.callout-note title="Level 2 at a glance" appearance="simple"}
+**Builds on:** Level 1 · **New components:** Quantum cards · **Playing time:** about 40 minutes
+:::
+
+## What's new {#sec-level-2-new}
+
+Players draw Quantum cards that give one-off special actions.
+
+## Additional components {#sec-level-2-components}
+
+| Component | Quantity | Notes |
+|-----------|---------:|-------|
+| Quantum cards | – | Describe here |
+
+## Setup changes {#sec-level-2-setup}
+
+After the core setup (@sec-setup), add the Level 2 components as described here.
+
+## New rules {#sec-level-2-rules}
+
+Describe the new rules for this level here.
+
+
+
+## New cards {#sec-level-2-cards}
+
+See the Level 2 rows of the card reference (@sec-cards).
+
+## Changes to winning {#sec-level-2-winning}
+
+No changes. The core winning conditions apply (@sec-winning).
+
+## Strategy tips {#sec-level-2-tips}
+
+- Add tips for this level here.

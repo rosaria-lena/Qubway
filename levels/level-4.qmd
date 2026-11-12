@@ -1,0 +1,39 @@
+# Level 4: Uncertainty {#sec-level-4}
+
+::: {.callout-note title="Level 4 at a glance" appearance="simple"}
+**Builds on:** Level 3 · **New components:** Uncertainty dice · **Playing time:** about 60 minutes
+:::
+
+## What's new {#sec-level-4-new}
+
+Measurement becomes more expensive and less predictable.
+
+## Additional components {#sec-level-4-components}
+
+| Component | Quantity | Notes |
+|-----------|---------:|-------|
+| Uncertainty dice | – | Describe here |
+
+## Setup changes {#sec-level-4-setup}
+
+After the core setup (@sec-setup), add the Level 4 components as described here.
+
+## New rules {#sec-level-4-rules}
+
+Describe the new rules for this level here.
+
+::: {.callout-important title="Level 4 change"}
+Measuring now costs **2 actions** instead of 1 (see @sec-measurement).
+:::
+
+## New cards {#sec-level-4-cards}
+
+See the Level 4 rows of the card reference (@sec-cards).
+
+## Changes to winning {#sec-level-4-winning}
+
+No changes. The core winning conditions apply (@sec-winning).
+
+## Strategy tips {#sec-level-4-tips}
+
+- Add tips for this level here.

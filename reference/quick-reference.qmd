@@ -1,0 +1,14 @@
+# Quick reference {#sec-quick-reference}
+
+**Aim:** bring 3 pieces to the opposite side (@sec-aim).
+
+**Your turn:** 3 actions.
+
+| Action    | Cost | Level 4+ cost |
+|-----------|-----:|--------------:|
+| Move      | 1    | 1             |
+| Split     | 1    | 1             |
+| Entangle  | 2    | 2             |
+| Measure   | 1    | 2             |
+
+**Measurement die:** 1–3 first marker, 4–6 second marker.

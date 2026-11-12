@@ -1,0 +1,17 @@
+# Card reference {#sec-cards}
+
+All cards in the game, with the level at which each one is introduced.
+Use the search box (top left) to find a card by name.
+
+| Card              | Type     | Level | Effect                                      |
+|-------------------|----------|:-----:|---------------------------------------------|
+| Quantum Leap      | Quantum  | 2     | Move a piece up to 3 squares                |
+| Observer          | Quantum  | 2     | Measure any piece for free                  |
+| Echo              | Timeline | 3     | Repeat your previous action                 |
+| Decoherence       | Timeline | 3     | All superpositions on one row collapse      |
+| Heisenberg        | Event    | 4     | Re-roll a measurement die                   |
+| Branching Worlds  | Event    | 5     | Split a piece across the two boards         |
+
+: All cards, by level {.striped}
+
+<!-- Replace with your own cards. Keep the Level column so players can see when each card is used. -->

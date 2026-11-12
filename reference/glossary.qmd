@@ -1,0 +1,13 @@
+# Glossary {#sec-glossary}
+
+**Collapse**
+: When a piece in superposition settles on one square after being measured.
+
+**Entanglement**
+: A link between two pieces: measuring one also measures the other (@sec-entanglement).
+
+**Measurement**
+: Rolling a die to decide where a piece in superposition ends up (@sec-measurement).
+
+**Superposition**
+: A piece that is on two squares at once (@sec-superposition).

@@ -1,0 +1,9 @@
+# Winning {#sec-winning}
+
+The game ends when one of these happens:
+
+1. A player reaches the opposite side of the board with 3 pieces, **or**
+2. Only one player has pieces left on the board.
+
+Some levels change or add to these conditions. Check the
+*Changes to winning* section of the level you're playing.
