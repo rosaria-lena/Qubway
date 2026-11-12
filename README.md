@@ -9,13 +9,12 @@ The rest of this README is the setup and maintenance guide, kept here for future
 ## Contents
  
 - [Overview](#overview)
-- [Part 1: Create a GitHub account](#part-1-create-a-github-account)
-- [Part 2: Create the repository](#part-2-create-the-repository)
-- [Part 3: Upload the template files](#part-3-upload-the-template-files)
-- [Part 4: Turn on GitHub Pages](#part-4-turn-on-github-pages)
-- [Part 5: Add the publishing workflow and get your link](#part-5-add-the-publishing-workflow-and-get-your-link)
-- [Part 6: Making changes later](#part-6-making-changes-later)
-- [Part 7: Work on your laptop in VS Code and sync with GitHub](#part-7-work-on-your-laptop-in-vs-code-and-sync-with-github)
+- [Part 1: Create the repository](#part-1-create-the-repository)
+- [Part 2: Upload the template files](#part-2-upload-the-template-files)
+- [Part 3: Turn on GitHub Pages](#part-3-turn-on-github-pages)
+- [Part 4: Add the publishing workflow and get your link](#part-4-add-the-publishing-workflow-and-get-your-link)
+- [Part 5: Making changes later](#part-5-making-changes-later)
+- [Part 6: Work on your laptop in VS Code and sync with GitHub](#part-6-work-on-your-laptop-in-vs-code-and-sync-with-github)
 - [Troubleshooting](#troubleshooting)
 - [Glossary](#glossary)
 ## Overview
