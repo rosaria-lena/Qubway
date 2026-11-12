@@ -1,8 +1,8 @@
 # Qubway – rules book
  
-This repository holds the source files for the **Quantum Board Game** rules, written as a [Quarto](https://quarto.org) book. The book is published automatically with GitHub Pages every time a change reaches the `main` branch.
+This repository holds the source files for the **Qubway** rules, written as a [Quarto](https://quarto.org) book. The book is published automatically with GitHub Pages every time a change reaches the `main` branch.
  
-**Live site:** https://YOUR-USERNAME.github.io/quantum-rules/
+**Live site:** https://rosaria-lena.github.io/Qubway/
  
 The rest of this README is the setup and maintenance guide, kept here for future reference.
  
@@ -37,40 +37,33 @@ Your `.qmd` files live in this GitHub *repository* (an online project folder), a
 | `README.md` | This guide |
 | `.github/workflows/publish.yml` | The publishing workflow. Don't delete it |
  
-## Part 1: Create a GitHub account
- 
-Skip this part if you already have an account.
- 
-1. Go to [github.com/signup](https://github.com/signup).
-2. Enter your email, a password and a **username**. Choose the username carefully, because it becomes part of your website address: `https://USERNAME.github.io/...`. Short, lowercase and no spaces works best.
-3. Complete the puzzle check, then enter the code GitHub emails you.
-4. If GitHub asks questions about you or your team, you can skip them. Choose the **Free** plan if it asks.
-## Part 2: Create the repository
+
+## Part 1: Create the repository
  
 A repository (or "repo") is the online folder that holds your book's files.
  
 1. Click the **+** icon in the top-right corner of any GitHub page, then **New repository**.
 2. Fill in the form:
-   - **Repository name:** `quantum-rules`. This becomes the end of your web address. Use lowercase and hyphens, no spaces.
+   - **Repository name:** `Qubway`. This becomes the end of your web address. Use lowercase and hyphens, no spaces.
    - **Description:** optional, for example "Rules for my quantum board game".
    - Choose **Public**. On a free account, GitHub Pages only works with public repositories, which means anyone can see the files.
    - Tick **Add a README file**. This matters: it creates the `main` branch the workflow needs.
    - Leave *.gitignore* and *license* as **None**.
 3. Click the green **Create repository** button.
-You'll land on your repo's page, at `https://github.com/YOUR-USERNAME/quantum-rules`. Bookmark it, because this is where you'll come to make changes.
+You'll land on your repo's page, at `https://github.com/rosaria-lena/Qubway`. Bookmark it, because this is where you'll come to make changes.
  
-## Part 3: Upload the template files
+## Part 2: Upload the template files
  
-1. On your computer, unzip `quantum-rules-book.zip`. On Windows, right-click it and choose **Extract All**. On a Mac, double-click it. You get a folder called `quantum-rules-book`.
+1. On your computer, unzip `Qubway-rules-book.zip`. On Windows, right-click it and choose **Extract All**. On a Mac, double-click it. You get a folder called `Qubway-rules-book`.
 2. Open that folder so you can see the files inside it (`_quarto.yml`, `index.qmd` and the rest).
 3. On your repo page on GitHub, click **Add file** (near the top, next to the green **Code** button), then **Upload files**.
 4. Select **all the files inside the folder except `publish.yml`** and drag them onto the upload area. Drag the files, not the folder itself. Otherwise everything ends up one level too deep and the book won't build.
 5. Wait until every file name appears in the list under the upload box.
 6. Scroll down to **Commit changes**. In the first box, type a short note such as `Add book template`. Leave **Commit directly to the main branch** selected.
 7. Click **Commit changes**.
-> **Check:** `_quarto.yml` should appear directly on the repo's front page, not inside a `quantum-rules-book` folder. If it's inside a folder, see [Troubleshooting](#troubleshooting).
+> **Check:** `_quarto.yml` should appear directly on the repo's front page, not inside a `Qubway-rules-book` folder. If it's inside a folder, see [Troubleshooting](#troubleshooting).
  
-## Part 4: Turn on GitHub Pages
+## Part 3: Turn on GitHub Pages
  
 Do this **before** adding the workflow in Part 5. The workflow runs as soon as you save it, and it fails if Pages isn't on yet.
  
@@ -79,13 +72,13 @@ Do this **before** adding the workflow in Part 5. The workflow runs as soon as y
 3. Under **Build and deployment**, find the **Source** dropdown and change it from *Deploy from a branch* to **GitHub Actions**.
 That's all; there's no save button. GitHub may now suggest some ready-made workflows. Ignore them.
  
-## Part 5: Add the publishing workflow and get your link
+## Part 4: Add the publishing workflow and get your link
  
 The workflow is a recipe that tells GitHub: "whenever the files change, install Quarto, build the book and publish it." It has to live in a folder called `.github/workflows`. That folder name starts with a dot, so it's hidden on most computers, which is why you create it on GitHub instead of uploading it.
  
 **Create the file**
  
-1. Go back to your repo's main page by clicking the repo name `quantum-rules` at the top.
+1. Go back to your repo's main page by clicking the repo name `Qubway` at the top.
 2. Click **Add file → Create new file**.
 3. In the **Name your file…** box, type exactly `.github/workflows/publish.yml`. Each time you type `/`, GitHub turns the text before it into a folder. That's expected.
 4. Paste the text below into the big editing area. Indentation (the spaces at the start of lines) matters, so copy it exactly.
@@ -148,9 +141,10 @@ jobs:
 **Get your link**
  
 1. Go to **Settings → Pages** again. At the top it now says **Your site is live at** followed by your link, with a **Visit site** button.
-2. Your link is: `https://YOUR-USERNAME.github.io/quantum-rules/`
+2. Your link is: `https://rosaria-lena.github.io/Qubway/`
 3. **Optional:** show the link on your repo page. On the repo's main page, click the gear icon next to **About** (right-hand side), tick **Use your GitHub Pages website**, then **Save changes**.
-## Part 6: Making changes later
+
+## Part 5: Making changes later
  
 Every time you save ("commit") a change on GitHub, the book rebuilds and republishes by itself within 1–3 minutes.
  
@@ -189,7 +183,7 @@ Edit `_quarto.yml`: change `title:` and `author:`. To try another theme, replace
  
 GitHub keeps every version. Open the file and click **History** to see earlier versions. The easiest fix is to open an old version, copy its text, and paste it back with the pencil editor.
  
-## Part 7: Work on your laptop in VS Code and sync with GitHub
+## Part 6: Work on your laptop in VS Code and sync with GitHub
  
 You can keep a copy of the repo on your laptop, edit and preview it in VS Code, and send changes back to GitHub with a couple of clicks. **The golden rule: get the latest version from GitHub before you start, and send your changes back when you finish.**
  
