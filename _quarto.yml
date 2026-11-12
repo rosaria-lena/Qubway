@@ -3,14 +3,21 @@ project:
   output-dir: _book
 
 book:
-  title: "Quantum Board Game"
+  title: "QUBWAY"
   subtitle: "Official rules"
-  author: "Your Name"
+  author:
+    - name: "Rosaria Lena"
+      email: rosaria.lena@glasgow.ac.uk
+      affiliations:
+        - name: "University of Glasgow"
+  sidebar:
+    logo: images/QUBWAY_Logo.png
+    logo-alt: "Qubway logo"
   date: today
   date-format: "D MMMM YYYY"
   search: true
   # After publishing, replace YOUR-USERNAME to add a "view source" link:
-  # repo-url: https://github.com/YOUR-USERNAME/quantum-rules
+  # repo-url: https://github.com/rosaria-lena/Qubway
   chapters:
     - index.qmd
     - part: "Core game"
@@ -37,8 +44,8 @@ book:
 format:
   html:
     theme:
-      light: [flatly, custom.scss]
-      dark: darkly
+      light: [cerulean, custom.scss]
+      dark: cyborg
     toc: true
     number-sections: true
     crossref:
