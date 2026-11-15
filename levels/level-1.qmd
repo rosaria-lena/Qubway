@@ -22,9 +22,40 @@ None. Play with the core rules (@sec-turn and @sec-quantum).
 
 
 
-## New cards {#sec-level-1-cards}
+## Cards {#sec-level-1-cards}
 
-None.
+### Superposition
+
+Note: Superposition is for lanes only in level 1.
+
+Card description: If your counters are in the same lane, move one counter to the other lane with the same number.
+
+Number in deck: 10 cards
+
+### Measurement
+
+Note: The counters must be in a superposition, i.e. in two different lanes to start with. You roll the die to determine which counter to move where.
+
+Card description: If your counters are in two lanes, roll the die. If you roll:
+- 1-3 move the outer counter to the inner counter
+- 4-6 move the inner counter to the outer counter
+
+Number in deck: 10 cards
+
+### +/- 1/2/3 (outer/inner lane)
+
+Note: there are two different types of cards for outer and inner lane.
+One card for each number (n=1,2,3).
+
+Card description: Move all of your outer/inner lane counters forward/backward by 1/2/3 spaces.
+If you have no counters in the outer/inner lane, nothing happens.
+
+
+
+
+### Move forward (inner lane)
+
+
 
 ## Changes to winning {#sec-level-1-winning}
 
