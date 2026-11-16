@@ -3,12 +3,12 @@
 All cards in the game, with the level at which each one is introduced.
 Use the search box (top left) to find a card by name.
 
-| Card              | Type     | Level | Effect                                      |
-|-------------------|----------|:-----:|---------------------------------------------|
-| Quantum Leap      | Quantum  | 2     | Move a piece up to 3 squares                |
-| Observer          | Quantum  | 2     | Measure any piece for free                  |
-| Echo              | Timeline | 3     | Repeat your previous action                 |
-| Decoherence       | Timeline | 3     | All superpositions on one row collapse      |
+| Card                              | Cards Number      | Level(s) | Effect                                                                |
+|-----------------------------------|-------------------|:--------:|-----------------------------------------------------------------------|
+| Inner/Outer Move Forward/Backward | 12 (12 types x1)  | 1        | Move a piece up to 3 squares in the inner/outer lane, forward/back    |
+| Superposition                     | 5                 | 1        | Move into a superpisition of lanes                                    |
+| Measurement                       | 5                 | 1        | Collapse into a single lane                                           |
+| Inner/outer move                  | 12 (4 types x3)   | 1+     | All superpositions on one row collapse      |
 | Heisenberg        | Event    | 4     | Re-roll a measurement die                   |
 | Branching Worlds  | Event    | 5     | Split a piece across the two boards         |
 
