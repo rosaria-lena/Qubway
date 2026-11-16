@@ -16,6 +16,7 @@ Use the search box (top left) to find a card by name.
 |Entanglement + lane measurement    | 6              | 3   | Entanglement and measurement in lane basis |
 |Entanglement + colour measurement | 6  |3| Entanglement and measurement in colour basis |
 
+: All cards, by level {.striped}
 
 ## Cards categories per level
 
@@ -27,6 +28,6 @@ Use the search box (top left) to find a card by name.
 | Entanglement + measurement | – | – | 28.6% |
 
 
-: All cards, by level {.striped}
+
 
 <!-- Replace with your own cards. Keep the Level column so players can see when each card is used. -->
