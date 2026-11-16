@@ -8,9 +8,13 @@ Use the search box (top left) to find a card by name.
 | Inner/Outer Move Forward/Backward | 12 (12 types x1)  | 1        | Move a piece up to 3 squares in the inner/outer lane, forward/back    |
 | Superposition                     | 5                 | 1        | Move into a superpisition of lanes                                    |
 | Measurement                       | 5                 | 1        | Collapse into a single lane                                           |
-| Inner/outer move                  | 12 (4 types x3)   | 1+     | All superpositions on one row collapse      |
-| Heisenberg        | Event    | 4     | Re-roll a measurement die                   |
-| Branching Worlds  | Event    | 5     | Split a piece across the two boards         |
+| Inner/outer move                  | 12? (4 types x3)  | 1+? or 2+| Move forward/back in inner/outer lane - option based on die roll      |
+| Lane change                     | 4?                | 2-3      | Change lanes                   |
+| Colour change                       | 4?                | 2-3      | Change colour of counters          |
+|Lane measurement                 | 5?                | 2-3      | Lane measurement / Colour superposition |
+|Colour measurement                   | 5?                | 2-3      |Colour measurement / lane superposition |
+|Entanglement + lane measurement    | 5?              | 3   | Entanglement and measurement in lane basis |
+|Entanglement + colour measurement | 5?  |3| Entanglement and measurement in colour basis |
 
 : All cards, by level {.striped}
 
