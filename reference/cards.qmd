@@ -5,16 +5,27 @@ Use the search box (top left) to find a card by name.
 
 | Card                              | Cards Number      | Level(s) | Effect                                                                |
 |-----------------------------------|-------------------|:--------:|-----------------------------------------------------------------------|
-| Inner/Outer Move Forward/Backward | 12 (12 types x1)  | 1        | Move a piece up to 3 squares in the inner/outer lane, forward/back    |
+| Inner/Outer Move Forward/Backward (single moves) | 12 (12 types x1)  | 1        | Move a piece up to 3 squares in the inner/outer lane, forward/back    |
 | Superposition                     | 5                 | 1        | Move into a superpisition of lanes                                    |
 | Measurement                       | 5                 | 1        | Collapse into a single lane                                           |
-| Inner/outer move                  | 12? (4 types x3)  | 1+? or 2+| Move forward/back in inner/outer lane - option based on die roll      |
-| Lane change                     | 4?                | 2-3      | Change lanes                   |
-| Colour change                       | 4?                | 2-3      | Change colour of counters          |
-|Lane measurement                 | 5?                | 2-3      | Lane measurement / Colour superposition |
-|Colour measurement                   | 5?                | 2-3      |Colour measurement / lane superposition |
-|Entanglement + lane measurement    | 5?              | 3   | Entanglement and measurement in lane basis |
-|Entanglement + colour measurement | 5?  |3| Entanglement and measurement in colour basis |
+| Inner/outer move (with dice roll)           | 12 (4 types x3)  | 2+| Move forward/back in inner/outer lane - option based on die roll      |
+| Lane change                     | 3                | 2-3      | Change lanes                   |
+| Colour change                       | 3                | 2-3      | Change colour of counters          |
+|Lane measurement                 | 6                | 2-3      | Lane measurement / Colour superposition |
+|Colour measurement                   | 6                | 2-3      |Colour measurement / lane superposition |
+|Entanglement + lane measurement    | 6              | 3   | Entanglement and measurement in lane basis |
+|Entanglement + colour measurement | 6  |3| Entanglement and measurement in colour basis |
+
+
+## Cards categories per level
+
+| Category | L1 | L2 | L3 |
+|---|---|---|---|
+| Movement | 54.5% | 40% | 28.6% |
+| Changes / flips | – | 20% | 14.3% |
+| Superposition / measurement | 45.5% | 40% | 28.6% |
+| Entanglement + measurement | – | – | 28.6% |
+
 
 : All cards, by level {.striped}
 
