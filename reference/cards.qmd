@@ -8,7 +8,8 @@ Use the search box (top left) to find a card by name.
 | Inner/Outer Move Forward/Backward (single moves) | 12 (12 types x1)  | 1        | Move a piece up to 3 squares in the inner/outer lane, forward/back    |
 | Superposition                     | 5                 | 1        | Move into a superpisition of lanes                                    |
 | Measurement                       | 5                 | 1        | Collapse into a single lane                                           |
-| Inner/outer move (with dice roll)           | 12 (4 types x3)  | 2+| Move forward/back in inner/outer lane - option based on die roll      |
+| Inner/outer move (with dice roll)     | 5 (4 types x1) +1 forward  | 2+| Move forward/back in inner/outer lane - option based on die roll      |
+| Black/white move (with dice roll)     | 5 (4 types x3) + 1 forward | 2+| Move forward/back in inner/outer lane - option based on die roll      |
 | Lane change                     | 3                | 2-3      | Change lanes                   |
 | Colour change                       | 3                | 2-3      | Change colour of counters          |
 |Lane measurement                 | 6                | 2-3      | Lane measurement / Colour superposition |
@@ -22,10 +23,11 @@ Use the search box (top left) to find a card by name.
 
 | Category | L1 | L2 | L3 |
 |---|---|---|---|
-| Movement | 54.5% | 40% | 28.6% |
-| Changes / flips | – | 20% | 14.3% |
-| Superposition / measurement | 45.5% | 40% | 28.6% |
-| Entanglement + measurement | – | – | 28.6% |
+|Total Cards number | 22 | 28 | 40 |
+| Movement | 54.5% | 35.7% | 25% |
+| Changes / flips | – | 21.4% | 15% |
+| Superposition / measurement | 45.5% | 42.9% | 30% |
+| Entanglement + measurement | – | – | 30% |
 
 
 
