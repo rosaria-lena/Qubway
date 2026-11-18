@@ -9,7 +9,7 @@ Use the search box (top left) to find a card by name.
 | Superposition                     | 5                 | 1        | Move into a superpisition of lanes                                    |
 | Measurement                       | 5                 | 1        | Collapse into a single lane                                           |
 | Inner/outer move (with dice roll)     | 5 (4 types x1) +1 forward  | 2+| Move forward/back in inner/outer lane - option based on die roll      |
-| Black/white move (with dice roll)     | 5 (4 types x3) + 1 forward | 2+| Move forward/back in inner/outer lane - option based on die roll      |
+| Black/white move (with dice roll)     | 5 (4 types x1) + 1 forward | 2+| Move forward/back in inner/outer lane - option based on die roll      |
 | Lane change                     | 3                | 2-3      | Change lanes                   |
 | Colour change                       | 3                | 2-3      | Change colour of counters          |
 |Lane measurement                 | 6                | 2-3      | Lane measurement / Colour superposition |
@@ -21,14 +21,15 @@ Use the search box (top left) to find a card by name.
 
 ## Cards categories per level
 
-| Category | L1 | L2 | L3 |
-|---|---|---|---|
-|Total Cards number | 22 | 28 | 40 |
-| Movement | 54.5% | 35.7% | 25% |
-| Changes / flips | – | 21.4% | 15% |
-| Superposition / measurement | 45.5% | 42.9% | 30% |
-| Entanglement + measurement | – | – | 30% |
+| Category | L1 | L2 | L3 | L4 | L5 |
+|---|---|---|---|---|---|
+|Total Cards number per level | 22 | 28 | 40 | xx | xx |
+| Movement | 12 - 54.5% | 10 - 35.7% | 10 - 25% | 10 - xx | 10 - xx |
+| Superposition / measurement | 10 - 45.5% | 12 - 42.9% | 12 - 30% | xx | xx |
+| Changes / flips | – | 6 - 21.4% | 6 - 15% | xx | xx |
+| Entanglement + measurement | – | – | 12 - 30% | xx | xx |
 
+Deck size for levels 1-3: 22+40=62 cards
 
 
 
